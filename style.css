@@ -1,0 +1,99 @@
+/* External CSS */
+/*kiribatimap width:2500px height:2500px
+kribatipicture 634px x 356px*/
+.flex2{
+	flex:2;
+}
+.flex3{
+	flex:3;
+}
+#kculture{
+	max-height:261px;
+	max-width:420px;
+}
+body{
+  font-family:Arial;
+}
+a{
+  text-decoration:none;
+}
+
+
+.container{
+	display:flex;
+}
+.center{
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	text-align:center;
+}
+
+}
+#kiritimatimap{
+	display:flex;
+	flex:1;
+	color: yellow;
+	font-family: "Verdana"
+}
+#kiritimatimap img{
+	height:75%; 
+	width:75%;
+	max-height:75% !important;
+	max-width:75% !important; 
+}
+#kiritimatipicture{
+	display:flex;
+	flex:2;
+}
+}
+#titleoverview{
+	flex:1;
+	max-width:400px;
+}
+#titlemap{
+	flex:1;
+}
+#titleinformation{
+	flex:1;
+}
+.yellowtext{
+	color: yellow;
+	font-family: "Verdana";
+}
+#click_me{
+  background-color:black;
+  padding:5px;
+  border-radius:5px;
+  color:white;
+}
+nav{
+  padding:5px;
+  margin:0 10px 0 10px;
+  flex:1;
+  text-align:center;
+}
+nav a{
+	flex:1;
+}
+
+#banner{
+	background-image: url("kiribatiflag.png");
+	padding:10px;
+	text-align:center;
+}
+body{
+	background-image: url(https://thevoyagemagazine.com/wp-content/uploads/2021/11/screen_2x-2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* When user mouses over the click_me link, set text to white. Why does it not work? */
+#click_me:hover{
+	color:white !important
+}
+#title{
+	color: green;
+	font-family:Stencil Std;
+}
+
